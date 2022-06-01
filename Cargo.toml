@@ -1,0 +1,15 @@
+[package]
+name = "github_explorer"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "ghe"
+path = "src/main.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tui = "0.18"
+crossterm = "0.23"
+octocrab = "0.16"
